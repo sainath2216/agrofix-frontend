@@ -1,0 +1,57 @@
+/* ProductCatalog.css */
+
+/* Center the header name */
+.product-heading {
+    color: rgb(60, 66, 59);
+    text-align: center;
+}
+
+.products-description {
+    text-align: center;
+    font-style: italic;
+    color: rgb(70, 50, 203);
+    font-size: 20px;
+
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 2rem auto;
+    max-width: 600px;
+}
+
+.product-list {
+    background-color: rgba(255, 255, 255, 0.8);
+    /* Light background for product items */
+    margin: 0.5rem 0;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    borderRadius: 8px;
+    margin: 10px 0;
+    padding: 10px;
+    boxShadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.list-heading{
+    margin: 0 0 5px;
+    color: #333 ;
+
+}
+.list-para{
+     margin: 0;
+      color: darkblue;
+}
+
+.product-list:hover {
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive adjustments for the product list */
+@media (max-width: 768px) {
+    ul {
+        padding: 0 1rem;
+    }
+}

@@ -1,0 +1,81 @@
+/* Admin Dashboard Container */
+.admin-dashboard {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    min-height: 100vh;
+  }
+  
+  /* Page Heading */
+  .admin-dashboard h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Orders List */
+  .orders-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Order Item */
+  .order-item {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Action Buttons */
+  .action-buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .action-buttons button {
+    padding: 10px 15px;
+    font-size: 14px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .action-buttons button:first-child {
+    background-color: #4caf50; /* Green for "In Progress" */
+  }
+  
+  .action-buttons button:first-child:hover {
+    background-color: #45a049;
+  }
+  
+  .action-buttons button:last-child {
+    background-color: #2196f3; /* Blue for "Delivered" */
+  }
+  
+  .action-buttons button:last-child:hover {
+    background-color: #1e88e5;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .order-item {
+      padding: 10px;
+    }
+  
+    .action-buttons {
+      flex-direction: column;
+      gap: 5px;
+    }
+  
+    .action-buttons button {
+      font-size: 12px;
+    }
+  }
+  
