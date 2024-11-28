@@ -16,8 +16,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #202020;
+    background-color: #f4f4f4;
     position: relative;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
   }
   
   .nav-content {
@@ -69,8 +74,6 @@ body {
   .nav-menu {
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
-    align-self: flex-end;
     list-style-type: none;
     margin-top: 0px;
     margin-bottom: 0px;
